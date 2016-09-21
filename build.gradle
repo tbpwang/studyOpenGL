@@ -1,0 +1,15 @@
+group 'cumtb'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.jogamp.gluegen:gluegen-rt:2.3.2'
+    compile 'org.jogamp.jogl:jogl:2.3.2'
+}
